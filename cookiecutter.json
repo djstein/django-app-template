@@ -1,0 +1,9 @@
+{
+    "app_name": "spice app",
+    "app_slug": "{{ cookiecutter.app_name.lower()|replace(' ', '-')|replace('.', '-')|trim() }}",
+    "description": "a new app by spice",
+    "author_name": "Dylan Stein",
+    "domain_name": "spice.cloud",
+    "author_email": "dylan@spice.cloud",
+    "version": "0.1.0"
+  }
